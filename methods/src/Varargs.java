@@ -7,6 +7,8 @@ public class Varargs {
 
     }
     static void varargs(int...nums){
+        nums[3]=23;
+
 
         System.out.println(Arrays.toString(nums));
         /*in java if we do not use Arrays.toString(), while
