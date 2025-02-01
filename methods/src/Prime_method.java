@@ -14,7 +14,7 @@ public class Prime_method {
         }
         int c = 2;
         while(c*c <= n){
-            if(n%2 == 0){
+            if(n%c == 0){
                 System.out.println(+n +" "+"is not a prime number");
                 return;
             }
