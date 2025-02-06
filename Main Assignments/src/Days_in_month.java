@@ -1,6 +1,6 @@
 import java.awt.desktop.SystemSleepEvent;
 import java.util.Scanner;
-
+//non leap year
 public class Days_in_month {
     public static void main(String[]args){
         Scanner input = new Scanner(System.in);

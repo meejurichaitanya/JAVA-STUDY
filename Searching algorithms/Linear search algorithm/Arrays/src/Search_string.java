@@ -5,7 +5,7 @@ public class Search_string {
       String name = "chaitanya";
       char target = 't';
       System.out.println(name);
-      System.out.println(Arrays.toString(name.toCharArray()));
+      //System.out.println(Arrays.toString(name.toCharArray()));
       System.out.println(search_string(name,target));
 
 
@@ -16,7 +16,7 @@ public class Search_string {
             if (c==a){
                 return true;
             }
-
-        }return false;
+        }
+        return false;
     }
 }

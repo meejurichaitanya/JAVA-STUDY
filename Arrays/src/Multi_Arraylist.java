@@ -6,7 +6,7 @@ public class Multi_Arraylist {
         Scanner input = new Scanner(System.in);
       ArrayList<ArrayList<Integer>>  nums =new ArrayList<>(8);
       //initialisation:
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 2; i++) {
             nums.add(new ArrayList<>());
 
         }

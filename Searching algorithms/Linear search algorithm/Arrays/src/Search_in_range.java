@@ -6,7 +6,7 @@ public class Search_in_range {
         int[] arr = {1,2,3,4,5,565,6,762,33,224,44};
         System.out.print("enter the index of range start:");
         int start = input.nextInt();
-        System.out.print("enter the index pf range end:");
+        System.out.print("enter the index of range end:");
         int end= input.nextInt();
         System.out.print("enter the number you want to search:");
         int search=input.nextInt();

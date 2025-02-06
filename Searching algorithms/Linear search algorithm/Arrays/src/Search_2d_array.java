@@ -14,6 +14,7 @@ public class Search_2d_array {
 
     }
     static int[] search(int[][] nums,int target){
+
         for (int i = 0; i < nums.length ; i++) {
             for (int j = 0; j <nums[i].length ; j++) {
                 if (nums[i][j]==target){
