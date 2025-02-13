@@ -7,7 +7,7 @@ public class Reversal {
         long num = input.nextLong();
         long r_num =0;
 
-        for (;num!=0;num /= 10){
+        for (long n=num;num!=0;num /= 10){
             int rem = (int) (num)%10;
 
             r_num=r_num*10+rem;

@@ -4,14 +4,14 @@ public class FirstAndLast_position {
    // https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
     public static void main(String[] args) {
         int[] nums={1,2,3,4,5,5,5,6,7,8};
-        int target=5;
+        int target=4;
 
 
         int first=find_first(nums,target);
         int last=find_last(nums,target);
-        int[] ans=new int[2];
-        ans[0]=first;
-        ans[1]=last;
+        int[] ans={first,last};
+        //ans[0]=first;
+        //ans[1]=last;
         System.out.println(Arrays.toString(ans));
     }
     static int find_first(int[]arr,int target){

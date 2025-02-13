@@ -9,7 +9,7 @@ public class Floor_number {
          to the target number.
         step3:pick the largest one among those numbers.//answer */
         int[] arr = {3,5,7,23,34,40};
-        System.out.println(floor(arr, 10));
+        System.out.println(floor(arr, 34));
     }
 
    //return largest number <=Target
@@ -22,7 +22,7 @@ public class Floor_number {
 
         while (start <= end) {
             int mid = start + (end - start) / 2;
-            if (array[mid] == target) {
+            if ( target ==array[mid]) {
                 return array[mid];
             } else if (target < array[mid]) {
                 end = mid - 1;

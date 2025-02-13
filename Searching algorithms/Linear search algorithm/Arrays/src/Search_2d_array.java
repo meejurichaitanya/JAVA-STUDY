@@ -9,7 +9,7 @@ public class Search_2d_array {
                 {898,22},
                 {21,44,32,555,32}
         };
-        int[] ans=search(numbers,88);
+        int[] ans=search(numbers,22);
         System.out.println(Arrays.toString(ans));
 
     }

@@ -8,7 +8,7 @@ public class Fibonacci {
         int first = 0;
         int second = 1;
         int count =0;
-        while(count < num){
+        while(count <=num){
             if (count == 0){
                 System.out.println(first);
             } else if (count == 1) {
