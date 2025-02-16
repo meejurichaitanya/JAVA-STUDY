@@ -37,9 +37,9 @@ the largest one among them which is the largest element
                         pieces++;
                     }else sum =sum+num;
                 }
-                if(pieces>k){
-                    start=mid+1;
-                }else end =mid;
+                if(pieces<=k){
+                    end =mid;
+                }else start=mid+1;
             }
             return start;
         }

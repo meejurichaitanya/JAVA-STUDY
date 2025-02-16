@@ -12,8 +12,9 @@ public class Search_string {
 
     }
     static boolean search_string(String str,char a){
-        for(char c:str.toCharArray()){
-            if (c==a){
+
+        for (char c : str.toCharArray()) {
+            if (c == a) {
                 return true;
             }
         }
