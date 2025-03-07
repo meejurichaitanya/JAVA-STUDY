@@ -11,12 +11,12 @@ public class InsertionSort {
             for (int j = i+1; j >0 ; j--) {
                 if (arr[j]<arr[j-1]){
                     swap(arr,j,j-1);
-                }
+                }else break;
 
             }
         }
     }
-    static void swap(int[] nums, int index1, int index2){
+    static void swap(int[] nums,int index1, int index2){
         int temp=nums[index1];
         nums[index1]=nums[index2];
         nums[index2]=temp;

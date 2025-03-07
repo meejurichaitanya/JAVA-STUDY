@@ -37,7 +37,7 @@ public class Palindrome {
 
     }
      /*
-      for (int i = 0; i <=str.length()/2 ; i++) {
+      for (int i = 0; i <=(str.length()-1)/2 ; i++) {
             int start=i;
             int end=str.length()-1-i;
             if (str.charAt(start)!=str.charAt(end)){

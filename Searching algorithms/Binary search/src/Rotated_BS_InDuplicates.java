@@ -3,8 +3,8 @@ public class Rotated_BS_InDuplicates {
     public static void main(String[] args) {
         //Given the array nums after the rotation and an integer target,
         // return true if target is in nums, or false if it is not in nums.
-        int[] nums={4,5,6,6,7,0,1,2,4,4};
-        int target =1;
+        int[] nums={1,1,2,2,0,0};
+        int target =0;
         System.out.println(searchTarget(nums,target));
     }
     static boolean searchTarget(int[] nums, int target) {
@@ -43,6 +43,22 @@ public class Rotated_BS_InDuplicates {
                 }
                 end--;
             }else if(arr[start]<arr[mid]||arr[start]==arr[mid]&&arr[mid]>arr[end]){
+                //this condition makes sure that left half sorted
+                /*
+                arr = [6, 7, 8, 1, 2, 3, 4, 5]
+                mid = (0 + 7) / 2 = 3 → arr[mid] = 1
+              Checking the condition:
+
+               arr[start] < arr[mid] → 6 < 1 ❌ (False)
+               (arr[start] == arr[mid] && arr[mid] > arr[end]) → 6 == 1 && 1 > 5 ❌ (False)
+                   The condition fails, meaning the left half is NOT sorted.
+                   So, the right half (1, 2, 3, 4, 5) must be sorted.
+
+                   Same here also if arr[mid]<arr[end] it conforms that left half is not sorted
+                   and moves search space to end=mid-1;
+                   -->rarely occur in duplicates
+
+                 */
                 start=mid+1;
             }else end =mid-1;
         }

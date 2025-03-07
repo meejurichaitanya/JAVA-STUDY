@@ -21,7 +21,7 @@ public class Infinite_Array {
             int newstart = end + 1;/*we are taking new start here because we dont want to
              modify start before we find  next end ,because to find next end we need
              to have previous start value.*/
-            end = end + (end - start + 1) * 2;//doubling the chunk size for next chuck chunk size=end-start+1;
+            end = end + (end - start + 1) * 2;//doubling the chunk size for next chunk. chunk size=end-start+1;
             start = newstart;
         }
         return binary_search(arr, target, start, end);
