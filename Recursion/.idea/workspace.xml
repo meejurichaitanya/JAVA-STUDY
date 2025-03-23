@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76fad5de-2fdd-4fce-a1dd-039334fb699e" name="Changes" comment="">
+    <list default="true" id="b56aaf7c-c0c6-4fc0-aa10-2c04d5e6bacc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Leetcode/src/Arranging_coins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode/src/Count_1s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode/src/Plus_one.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Math For Dsa/Math For Dsa.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Math For Dsa/src/Gcd.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Math For Dsa/src/Newton_Sqrt.java" afterDir="false" />
@@ -15,41 +18,58 @@
       <change afterPath="$PROJECT_DIR$/../Recursion patterm_bubble/src/My_Try.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Recursion patterm_bubble/src/SelectionSort_Kunal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Recursion patterm_bubble/src/Selection_Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion patterm_bubble/src/Selection_sort_min.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Recursion patterm_bubble/src/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/src/Count_no_of_zeroes_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/src/Factorial_of_number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/src/No_of_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/src/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/src/Print_n_numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/src/Product_of_digits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/src/Reverse_number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/src/Reverse_number2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/src/Sum_of_Digits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/src/Sum_of_digits_In_range.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/src/Sum_of_n_numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/src/n_minus_minus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Count_no_of_zeroes_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factorial_of_number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/No_of_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Print_n_numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Product_of_digits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reverse_number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reverse_number2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sum_of_Digits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sum_of_digits_In_range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sum_of_n_numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/n_minus_minus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/untitled.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Recursion_Arrays/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Recursion_Arrays/Recursion_Arrays.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Recursion_Arrays/src/Add_lists.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Recursion_Arrays/src/Return_list.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Recursion_Arrays/src/Rotated_Binary_Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion_Arrays/src/Subseq_Asciivalue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion_Strings/src/Duplicate_Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion_Strings/src/Iterating_Subset.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Recursion_Strings/src/Skip_letter_Kunal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion_Strings/src/Skip_string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion_Strings/src/Sub_seq_ascii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion_Strings/src/Sub_seq_list.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion_Strings/src/Subseq_print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion_Strings/src/Subseq_return_list.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sorting algorithms/MergeSort/src/MergeSort_Inplace.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sorting algorithms/MergeSort/src/Practice.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sorting algorithms/QuickSort/src/Quick_sort_practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Arrays/src/Array_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/Array_List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Recursion/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Recursion/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/MaxAscSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/MaxAscSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Searching algorithms/Binary search/src/SplitArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Searching algorithms/Binary search/src/SplitArraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../String and String builder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../String and String builder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../String and String builder/src/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/../String and String builder/src/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../String and String builder/src/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/../String and String builder/src/Palindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -67,30 +87,30 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2tW6ltpZcDGzCXjongAHxS963ZE" />
+  <component name="ProjectId" id="2uAOO3wmti0J5keK95Q6Dup7Xf2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Application.Operators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pretty_printing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum_of_digits_In_range.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/javapgrms/idjprograms/Recursion_Arrays&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="76fad5de-2fdd-4fce-a1dd-039334fb699e" name="Changes" comment="" />
-      <created>1740455641171</created>
+      <changelist id="b56aaf7c-c0c6-4fc0-aa10-2c04d5e6bacc" name="Changes" comment="" />
+      <created>1741687876932</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740455641171</updated>
+      <updated>1741687876932</updated>
     </task>
     <servers />
   </component>

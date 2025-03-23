@@ -8,6 +8,7 @@ public class Output {
         System.out.println('c');
         System.out.println("chaitanya");
         System.out.println(Arrays.toString(new int[] {1,2,3,4}));
+        System.out.println(new int[]{1,23,3});
 
     }
 }

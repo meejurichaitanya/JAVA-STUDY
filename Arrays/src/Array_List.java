@@ -6,6 +6,7 @@ public class Array_List {
         Scanner input = new Scanner(System.in);
         ArrayList<Integer> nums= new ArrayList<>();
         for (int i=0;i<5;i++){
+            System.out.println("enter no:");
              nums.add(input.nextInt());
         }
         nums.add(9);
@@ -14,7 +15,7 @@ public class Array_List {
         nums.add(7);
         nums.remove(0);
         nums.set(5,7);
-        nums.get(3);
+        System.out.println(nums.get(3));
         System.out.println(nums);
 
 

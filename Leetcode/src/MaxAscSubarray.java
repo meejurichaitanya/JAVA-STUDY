@@ -7,20 +7,22 @@ public class MaxAscSubarray {
     }
     static int maxAscendingSum(int[] nums) {
 
-        int maxsum=0;
-        int sum=0;
+        int maxsum=nums[0];
+        int sum=nums[0];
         for(int i=1;i<nums.length;i++){
 
             if(nums[i]>nums[i-1]){
-                sum=sum+nums[i]+nums[i-1];
-
+                sum=sum+nums[i];//+nums[i-1];
+                maxsum=Math.max(sum,maxsum);
             }else {
-                maxsum = Math.max(sum, maxsum);
-                sum = 0;
+
+                sum = nums[i];
             }
         }
         return maxsum;
 
     }
+
+
 }
 

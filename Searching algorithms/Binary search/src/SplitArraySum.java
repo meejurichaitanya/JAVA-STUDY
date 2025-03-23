@@ -24,7 +24,7 @@ the largest one among them which is the largest element
                 start=Math.max(start,nums[i]);
                 end=end+nums[i];
             }
-            //now after this for we got our start and end.
+            //now after this for loop we got our start and end.
             //which are min and max range where our answer will lie
             //now we just have to do a simple binary search to find our answer.
             while(start<end){

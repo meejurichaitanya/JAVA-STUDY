@@ -47,7 +47,8 @@ public class Palindrome {
 
          */
     static boolean check_palindrome3(String str){
-        String reversed =new StringBuilder(str).reverse().toString();
+        StringBuilder reversed =new StringBuilder(str).reverse();
+        reversed.toString();
         return str.equals(reversed);
 
     }
